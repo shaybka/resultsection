@@ -1,0 +1,172 @@
+{
+  "teacher_id": "TCH123",
+  "teacher_name": "John Doe",
+  "courses": [
+    {
+      "course_id": "CRS101",
+      "course_name": "Biology 101",
+      "quizzes": [
+        {
+          "quiz_id": "QZ001",
+          "quiz_name": "Photosynthesis Quiz",
+          "due_date": "2024-11-15",
+          "total_questions": 10,
+          "created_date": "2024-10-01",
+          "students": [
+            {
+              "student_id": "STD001",
+              "student_name": "Alice Smith",
+              "status": "taken",
+              "score": 85,
+              "answers": [
+                {
+                  "question_id": 1,
+                  "question_text": "What is the main function of chlorophyll?",
+                  "student_answer": "It helps in photosynthesis",
+                  "correct_answer": "It helps in photosynthesis",
+                  "is_correct": true
+                },
+                {
+                  "question_id": 2,
+                  "question_text": "Explain the light-dependent reactions.",
+                  "student_answer": "Energy from sunlight is absorbed to produce ATP.",
+                  "correct_answer": "Energy from sunlight is absorbed and used to produce ATP.",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "student_id": "STD002",
+              "student_name": "Bob Johnson",
+              "status": "not taken",
+              "score": "-"
+            },
+            {
+              "student_id": "STD003",
+              "student_name": "Clara Evans",
+              "status": "taken",
+              "score": 75,
+              "answers": [
+                {
+                  "question_id": 1,
+                  "question_text": "What is the main function of chlorophyll?",
+                  "student_answer": "It captures sunlight",
+                  "correct_answer": "It helps in photosynthesis",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "student_id": "STD004",
+              "student_name": "David Brown",
+              "status": "not taken",
+              "score": "-"
+            }
+          ]
+        },
+        {
+          "quiz_id": "QZ002",
+          "quiz_name": "Cell Structure Quiz",
+          "due_date": "2024-11-20",
+          "total_questions": 12,
+          "created_date": "2024-10-05",
+          "students": [
+            {
+              "student_id": "STD001",
+              "student_name": "Alice Smith",
+              "status": "taken",
+              "score": 88,
+              "answers": [
+                {
+                  "question_id": 1,
+                  "question_text": "What is the function of the cell membrane?",
+                  "student_answer": "It controls entry and exit of substances.",
+                  "correct_answer": "It controls entry and exit of substances.",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "student_id": "STD003",
+              "student_name": "Clara Evans",
+              "status": "not taken",
+              "score": "-"
+            },
+            {
+              "student_id": "STD005",
+              "student_name": "Evan Williams",
+              "status": "taken",
+              "score": 92,
+              "answers": [
+                {
+                  "question_id": 1,
+                  "question_text": "What is the function of the mitochondria?",
+                  "student_answer": "It generates energy.",
+                  "correct_answer": "It generates energy.",
+                  "is_correct": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_id": "CRS102",
+      "course_name": "Physics 101",
+      "quizzes": [
+        {
+          "quiz_id": "QZ003",
+          "quiz_name": "Motion and Force Quiz",
+          "due_date": "2024-11-25",
+          "total_questions": 8,
+          "created_date": "2024-10-10",
+          "students": [
+            {
+              "student_id": "STD001",
+              "student_name": "Alice Smith",
+              "status": "not taken",
+              "score": "-"
+            },
+            {
+              "student_id": "STD002",
+              "student_name": "Bob Johnson",
+              "status": "taken",
+              "score": 80,
+              "answers": [
+                {
+                  "question_id": 1,
+                  "question_text": "Define inertia.",
+                  "student_answer": "Resistance to change in motion.",
+                  "correct_answer": "Resistance to change in motion.",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "student_id": "STD006",
+              "student_name": "Grace Lee",
+              "status": "taken",
+              "score": 78,
+              "answers": [
+                {
+                  "question_id": 2,
+                  "question_text": "What is Newton's Second Law?",
+                  "student_answer": "Force equals mass times acceleration.",
+                  "correct_answer": "Force equals mass times acceleration.",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "student_id": "STD007",
+              "student_name": "Henry White",
+              "status": "not taken",
+              "score": "-"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
