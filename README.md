@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Quiz Management System
 
-## Getting Started
+## Overview
 
-First, run the development server:
+The Quiz Management System is a web application designed to manage quizzes, students, and their answers. It allows teachers to create quizzes, students to take quizzes, and provides functionality to update and view quiz results.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Create and manage quizzes
+- View and update student answers and scores
+- Search and filter students
+- Responsive design for easy navigation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- React
+- nextjs
+- Tailwind CSS
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Make sure you have the following installed on your machine:
 
-## Deploy on Vercel
+- Node.js
+- npm (Node Package Manager)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/quiz-management-system.git
+    cd quiz-management-system
+    ```
+
+2. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+4. Open your browser and navigate to `http://localhost:3000`.
+
+## API Endpoints
+
+### Get Quiz Data
+
+- **URL:** `/api/result/:id`
+- **Method:** `GET`
+- **Description:** Fetches the quiz data for the given quiz ID.
+
+### Update Student Answers
+
+- **URL:** `/api/update-answers/:student_id`
+- **Method:** `PUT`
+- **Description:** Updates the answers and score for the given student ID.
+
+## Usage
+
+### Viewing Quizzes
+
+1. Navigate to the home page to see a list of quizzes.
+2. Click on a quiz to view its details, including the list of students and their scores.
+
+### Updating Student Answers
+
+1. Click on a student to view their quiz details.
+2. Update the correctness of their answers using the dropdowns.
+3. Click the "Update" button to save the changes.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
