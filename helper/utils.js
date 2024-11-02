@@ -13,7 +13,7 @@ export const readData = async () => {
     }
 }
 
-export const UpdateData = async (data) => {
+export const saveData = async (data) => {
     try {
         const jsonData = JSON.stringify(data); 
         await fs.writeFile(datafile_path, jsonData, 'utf8');
