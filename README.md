@@ -13,7 +13,6 @@ The Quiz Management System is a web application designed to manage quizzes, stud
 
 ## Technologies Used
 
-- React
 - nextjs
 - Tailwind CSS
 
